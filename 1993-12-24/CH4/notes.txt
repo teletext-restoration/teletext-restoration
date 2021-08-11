@@ -1,2 +1,0 @@
-Recovered by Andrew Nile
-Deconvolved with old software (parity checksums)
