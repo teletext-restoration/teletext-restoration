@@ -19,6 +19,8 @@ Restored pages are currently placed in directories named by the start and end ti
 
 Some pages contain the time of their first and last transmission during the recording as part of the filename, i.e. `Pmpp-ssss-hhmm-hhmm.t42`. All files may get renamed to this scheme in due course.
 
-Where the restored pages do not match any of the CRC checksums present in the recovery (most often because the recovery was made using an old version of vhs-teletext which corrupted them) they are suffixed with the string `-maybe`. For example `P348-0001-maybe.t42`
+Where the restored pages do not exactly match any of the CRC checksums present in the recovery (most often because the recovery was made using an old version of vhs-teletext which corrupted them) they are suffixed with the string `-maybe`. For example `P348-0001-maybe.t42`
+
+Where no chcksum was broadcast the filename is sufficed with `-nocrc`.
 
 The location/naming of pages containing regional content is yet to be decided.
