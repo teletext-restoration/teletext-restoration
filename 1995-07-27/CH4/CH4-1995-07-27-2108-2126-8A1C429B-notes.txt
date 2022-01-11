@@ -1,3 +1,4 @@
 Recovered by Tom41
 Yorkshire region
+Deconvolved with old software (parity checksums)
 Not a continuous recording

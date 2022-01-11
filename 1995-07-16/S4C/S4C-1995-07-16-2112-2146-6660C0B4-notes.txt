@@ -1,3 +1,4 @@
 Recovered by Tim Bisley
 Wales region
+Deconvolved with old software (parity checksums)
 Not a continuous recording
