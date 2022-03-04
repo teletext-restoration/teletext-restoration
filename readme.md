@@ -22,14 +22,16 @@ These notes are also present in the archive files, primarily to ensure the recov
 ITV regions are currently stored independently, as are recoveries from S4C. Recoveries from different Channel 4 teletext regions are lumped together.
 
 ### Restored pages
-Most restored pages are currently placed in directories named by the start and end time of the recording they are recovered from, e.g. `1355-1415`. The pages are named in the form `Pmpp-ssss.t42` where `m` is the magazine number, `pp` is the page number, and `ssss` is the subpage number.
+Some pages are currently placed in directories named by the start and end time of the recording they are recovered from, e.g. `1355-1415`. The pages are named in the form `Pmpp-ssss.t42` where `m` is the magazine number, `pp` is the page number, and `ssss` is the subpage number.
 
-Some pages contain the time of their first and last transmission during the recording as part of the filename in a common `restored` directory instead of separate directories per recording, i.e. `restored/Pmpp-ssss-hhmm-hhmm.t42`.
+Most pages contain the time of their first and last transmission during the recording as part of the filename in a common `restored` directory instead of separate directories per recording, i.e. `restored/Pmpp-ssss-hhmm-hhmm.t42`.
+This is the preferred form for new restorations, and all files will get renamed to this scheme eventually.
 
-This is the preferred form for new restorations, and all files should get renamed to this scheme in due course.
-
-Where the restored pages do not exactly match any of the CRC checksums present in the recovery (most often because the recovery was made using an old version of vhs-teletext which corrupted them) they are suffixed with the string `-maybe`. For example `P348-0001-maybe.t42`
+Where the restored pages are close, but do not exactly match any of the CRC checksums present in the recovery (most often because the recovery was made using an old version of vhs-teletext which corrupted them), they are suffixed with the string `-maybe`. For example `P348-0001-maybe.t42`
 
 Where no checksum, or an obviously corrupt checksum (e.g. 0x2020 on every page) was broadcast the filename is sufficed with `-nocrc`.
 
 The location/naming of pages containing regional content, and handling of ambiguous timestamps on daylight saving time changes is yet to be decided.
+
+### Project progress
+Progress on restoring various teletext sections (Turner the Worm, Digitiser, Mega-zine, etc.) is currently tracked in a google spreadsheet: https://docs.google.com/spreadsheets/d/1miL8jvurmjmlbHn32wEz7TiPTdzTdR5C6M5ZoliU3o4/edit?usp=sharing
