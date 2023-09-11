@@ -1,7 +1,7 @@
 # Recovered teletext page restoration
 This repository contains recovered UK teletext pages which have been manually restored to correct recovery errors.
 
-These files are **raw teletext packet data** for further analysis and processing. If you're looking for a human readable archive of teletext recoveries which can be read online, see the [Teletext Archaeologist Archive](https://archive.teletextarchaeologist.org/).
+These files are **raw teletext packet data** for further analysis and processing. If you're looking for a human readable archive of teletext recoveries which can be read online, see the [Teletext Archaeologist Archive](https://www.teletextarchive.com).
 
 ## File naming
 ### Raw recoveries
